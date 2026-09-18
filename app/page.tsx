@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import { supabase } from '@/lib/supabaseClient'
+export const dynamic = 'force-dynamic'
 
 export default async function Home() {
   // Simple starter query - proves the connection to Supabase works.
